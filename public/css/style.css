@@ -70,7 +70,8 @@ figure {
 #colorlib-page {
   width: 100%;
   overflow: hidden;
-  position: relative; }
+  position: relative; 
+}
 
 #colorlib-aside {
   padding-top: 3em;
@@ -216,7 +217,7 @@ figure {
             color: #2c98f0; }
 
 .container-wrap {
-  max-width: 1170px;
+  /* max-width: 1170px; */
   margin: 0 auto; }
 
 #colorlib-main {
@@ -247,7 +248,7 @@ figure {
       #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-position: bottom center; */
+        background-position: center;
         min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
