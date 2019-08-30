@@ -22,7 +22,7 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #2c98f0;
+  color: #2c98f0; /* BEFORE: #2c98f0 */
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -81,7 +81,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  background: #FAFDFF;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -284,18 +284,18 @@ figure {
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
-        vertical-align: middle;
+        vertical-align: top;
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+            vertical-align: bottom;
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: white;
-          opacity: 0.8;
+          color: #FAFDFF;
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -335,11 +335,13 @@ figure {
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
-            border: 1px solid #000;
-            background: transparent !important; }
+            /* border: 1px solid #000; */
+            border-radius: 0.5rem;;
+            background: #FAFDFF !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
+              color: #FAFDFF;
               background: transparent !important;
-              border: 1px solid #000 !important; }
+              border: 1px solid #FAFDFF !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
