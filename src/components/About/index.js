@@ -11,15 +11,24 @@ export default class About extends Component {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                   <div className="col-md-12">
                     <div className="about-desc">
-                      <span className="heading-meta">About Us</span>
+                      <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
-                      <p><strong>Hi I'm Maurício Silvério</strong> On her way she met a copy. The copy warned the Little
-                        Blind Text, that where it came from it would have been rewritten a thousand times and everything
-                        that was left from its origin would be the word "and" and the Little Blind Text should turn
-                      around and return to its own, safe country.</p>
-                      <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                        unorthographic life One day however a small line of blind text by the name of Lorem Ipsum
-                      decided to leave for the far World of Grammar.</p>
+                      <p>
+                        <strong>Hi, my name is Maurício Silvério.</strong> I'm a 17-year-old Brazilian guy willing to use
+                        technology and entrepreneurship in order to foster education access around the globe.
+                      </p>
+                      <p>
+                        I have the dream of studying in an American university so that I can learn with the best professors
+                        in the world and network with other prospective students in an enriching cultural environment.
+                        <br />
+                        <br />
+                        Then, By learning about artificial intelligence and social entrepreneurship, I hope to improve the app
+                        code efficiency of my startup to expand it to a global scale. I want to use iDuk to give underprivileged
+                        students access to the best schools in Brazil, thereby innovating our educational system.
+                        <br />
+                        <br />
+                        Visit <a href="https://iduk.me" target="_blank" rel="noopener noreferrer">iduk.me</a> to follow our transformation.
+                      </p>
                     </div>
                   </div>
                 </div>

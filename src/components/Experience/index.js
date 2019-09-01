@@ -56,7 +56,12 @@ export default class Experience extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2><a href="#">Impact Challenge finalist at The Youth Assembly</a> <span>Feb 2019</span></h2>
+                        <h2>
+                          <a href="https://www.youtube.com/watch?v=n271RLPPmHo" target="_blank" rel="noopener noreferrer">
+                            Impact Challenge finalist at The Youth Assembly
+                          </a> &nbsp;
+                          <span>Feb 2019</span>
+                        </h2>
                         <p>
                           I was one of the Brazilians selected to represent our country in the greatest conference about youth leadership and
                           sustainable development in the world: The Youth Assembly, organized in partnership with the United Nations.
