@@ -23,7 +23,7 @@ class App extends Component {
             <Services />
             <Counters />
             <Skills />
-            <Education />
+            {/* <Education /> */}
             <Experience />
             {/* <Work /> */}
             <Contact />
