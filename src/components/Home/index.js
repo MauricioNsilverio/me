@@ -22,7 +22,7 @@ export default class Home extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{ backgroundImage: 'url(images/YA.jpg)' }}>
+              <li style={{ backgroundImage: 'url(images/YA.JPG)' }}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
