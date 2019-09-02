@@ -10,16 +10,16 @@ export default class Counters extends Component {
           </div>
           <div className="row">
             <div className="col-md-3 text-center animate-box">
-              <span className="colorlib-counter"> ♾️</span>
+              <span className="colorlib-counter">999+</span>
               <span className="colorlib-counter-label">Cups of coffee</span>
             </div>
             <div className="col-md-3 text-center animate-box">
-              <span className="colorlib-counter js-counter" data-from={0} data-to={356} data-speed={5000} data-refresh-interval={50} />
+              <span className="colorlib-counter js-counter" data-from={0} data-to={10} data-speed={5000} data-refresh-interval={50} />
               <span className="colorlib-counter-label">Projects</span>
             </div>
             <div className="col-md-3 text-center animate-box">
-              <span className="colorlib-counter js-counter" data-from={0} data-to={30} data-speed={5000} data-refresh-interval={50} />
-              <span className="colorlib-counter-label">Clients</span>
+              <span className="colorlib-counter js-counter" data-from={0} data-to={1500} data-speed={5000} data-refresh-interval={50} />
+              <span className="colorlib-counter-label">People impacted with my projects</span>
             </div>
             <div className="col-md-3 text-center animate-box">
               <span className="colorlib-counter js-counter" data-from={0} data-to={10} data-speed={5000} data-refresh-interval={50} />

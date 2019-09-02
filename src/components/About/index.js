@@ -36,25 +36,25 @@ export default class About extends Component {
                   <div className="col-md-3 animate-box" data-animate-effect="fadeInLeft">
                     <div className="services color-1">
                       <span className="icon2"><i className="icon-bulb" /></span>
-                      <h3>Public Speaking</h3>
+                      <h3>Access iDuk</h3>
                     </div>
                   </div>
                   <div className="col-md-3 animate-box" data-animate-effect="fadeInRight">
                     <div className="services color-2">
                       <span className="icon2"><i className="icon-globe-outline" /></span>
-                      <h3>Java Script</h3>
+                      <h3>Discover different opportunities</h3>
                     </div>
                   </div>
                   <div className="col-md-3 animate-box" data-animate-effect="fadeInTop">
                     <div className="services color-3">
                       <span className="icon2"><i className="icon-data" /></span>
-                      <h3>Mentoring</h3>
+                      <h3>Apply</h3>
                     </div>
                   </div>
                   <div className="col-md-3 animate-box" data-animate-effect="fadeInBottom">
                     <div className="services color-4">
                       <span className="icon2"><i className="icon-phone3" /></span>
-                      <h3>Entrepreneurship</h3>
+                      <h3>Wait for your answer!</h3>
                     </div>
                   </div>
                 </div>
