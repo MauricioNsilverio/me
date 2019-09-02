@@ -1,6 +1,15 @@
 import React, { Component } from 'react'
 
 export default class Home extends Component {
+  componentDidMount() {
+    ['images/MIT.jpg', 'images/YA.JPG', 'images/StHughs.jpg'].forEach((picture) => {
+      const img = new Image();
+      img.src = picture;
+      console.log(img.src);
+
+    });
+  }
+
   render() {
     return (
       <div>
