@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is my portfolio webpage I created using React and GitHub pages.
+
+![](public/images/ReadmeImg.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
