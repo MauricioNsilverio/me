@@ -250,7 +250,8 @@ figure {
         background-size: cover;
         background-position: center;
         min-height: 400px;
-        position: relative; }
+        position: relative; 
+      }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
@@ -291,7 +292,9 @@ figure {
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             vertical-align: bottom;
-            text-align: center; } }
+            text-align: center; 
+          } 
+        }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
@@ -303,9 +306,12 @@ figure {
           line-height: 1.3;
           font-weight: 700; 
         }
-          /* @media screen and (max-width: 768px) {
+          @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-              font-size: 28px; } } */
+              font-size: 38px;
+              color: #fff;
+            } 
+          }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
           line-height: 1.5;
